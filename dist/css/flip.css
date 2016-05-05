@@ -9,7 +9,7 @@
 
 .flip-container, .front, .back {
 	width: 320px;
-	height: 480px;
+	/*height: 480px;*/
 }
 
 /* flip speed goes here */
@@ -46,19 +46,33 @@
     margin-right: 30px;
     text-align: right;
     font-weight: 100;
-    /*line-height: 100%;*/
+    line-height: 90%;
 }
 .card-text strong{
-    font-weight: 500;
+    color: rgb(257,88,93);
+    font-weight: 300;
     /*font-weight: strong;*/
 }
 
+.jumbotron{
+    color: rgb(257,88,93);
+}
+.text-muted{
+    font-weight: 100;
+}
+
 .UserImage{
-    height: 315px;
-    width: 280px;
+    height: 275px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 	border-color: #CCCCCC #AAAAAA #AAAAAA #CCCCCC;
 	border-radius: 3px 3px 3px 3px;
 	border-style: solid;
 	border-width: 1px;
 	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.card{
+    height: 500px;
 }
