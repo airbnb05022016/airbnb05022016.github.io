@@ -46,8 +46,13 @@
     margin-right: 30px;
     text-align: right;
     font-weight: 100;
-    line-height: 90%;
+	line-height: 95%;
 }
+.card-text p {
+	margin-top: 0em;
+	margin-bottom: 0.5em;
+}
+
 .card-text strong{
     color: rgb(257,88,93);
     font-weight: 300;
@@ -74,5 +79,15 @@
 }
 
 .card{
-    height: 500px;
+    height: 490px;
+}
+
+.JumboImg{
+	width: 100%;
+    height:auto;
+    display:block;
+    margin:auto;
+    /*position:absolute; [>trick for vertical center<]*/
+    /*top:0;             [>trick for vertical center<]*/
+    /*bottom:0;          [>trick for vertical center<]*/
 }
