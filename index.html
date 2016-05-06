@@ -16,7 +16,7 @@
     <!-- Custom styles for this template -->
     <link href="album.css" rel="stylesheet">
     <link href="dist/css/flip.css" rel="stylesheet">
-    <script src="jquery.min.js"></script>
+    <script src="js/jquery.min.js"></script>
 
   </head>
 
@@ -429,8 +429,8 @@
     //console.log('isSafari = ' + isSafari);
     //console.log('isChrome = ' + isChrome);
     if(isSafari == true){
-        $(".flipper").children('.front').show();
-        $(".flipper").children('.back').hide();
+        $(".front").show();
+        $(".back").hide();
 
         $( ".flipper" ).hover(function ( event ) {
             $(this).children('.front').toggle();
